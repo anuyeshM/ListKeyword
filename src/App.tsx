@@ -63,6 +63,7 @@ const App: React.FC = () => {
       <div className="App">
         <img
           src="https://i.ibb.co/6YX1C9K/62baeb2e2cd714a19a955183-longshot-logo.jpg"
+            alt="Bonnie image"
         />
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
         <TodoList
