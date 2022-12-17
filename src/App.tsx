@@ -61,9 +61,9 @@ const App: React.FC = () => {
   return (
     <DragDropContext onDragEnd={onDragEnd}>
       <div className="App">
-        <input type="image" img
+        <img
           src="https://i.ibb.co/6YX1C9K/62baeb2e2cd714a19a955183-longshot-logo.jpg"
-            alt="Bonnie image"
+            alt="Bonnie"
         />
         <InputField todo={todo} setTodo={setTodo} handleAdd={handleAdd} />
         <TodoList
