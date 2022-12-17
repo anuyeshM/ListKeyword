@@ -25,7 +25,7 @@ const TodoList: React.FC<props> = ({
             ref={provided.innerRef}
             {...provided.droppableProps}
           >
-            <span className="todos__heading">Active Keywords</span>
+            <span className="todos__heading">Drag from me</span>
             {todos?.map((todo, index) => (
               <SingleTodo
                 index={index}
@@ -48,7 +48,7 @@ const TodoList: React.FC<props> = ({
               snapshot.isDraggingOver ? "dragcomplete" : "remove"
             }`}
           >
-            <span className="todos__heading">Completed Keywords</span>
+            <span className="todos__heading">Drag into Me</span>
             {CompletedTodos?.map((todo, index) => (
               <SingleTodo
                 index={index}
