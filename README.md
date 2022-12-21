@@ -1,29 +1,20 @@
-# Getting Started with Create React App
+Deployment Link https://main--dulcet-kringle-b3fba7.netlify.app/
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to our todo list app built with React and Drag and Drop (DnD)! This app allows you to easily create and organize your tasks, making it the perfect tool for boosting your productivity.
 
-## Available Scripts
+With our app, you can:
 
-In the project directory, you can run:
+Add new tasks by simply typing them into the input field and hitting "enter"
+Drag and drop tasks to rearrange their order or move them to different lists
+Mark tasks as complete by clicking on the checkbox next to each task
+Edit the content of a task by double-clicking on it
+Delete tasks by hovering over them and clicking the trash icon
+Our app is built with React, a popular JavaScript library for building user interfaces, and utilizes the React DnD library for its drag and drop functionality.
 
-### `npm start`
+Try it out and see how it can help you get more done!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![image](https://user-images.githubusercontent.com/95938949/208899852-ffb7d6c4-5c12-491e-8264-8a1d359531d2.png)
+![image](https://user-images.githubusercontent.com/95938949/208899895-115be2ea-e4f9-4718-972e-2ea804da8a0c.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-.
-
-### `npm build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 
